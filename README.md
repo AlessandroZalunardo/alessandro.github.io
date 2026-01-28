@@ -1,4 +1,4 @@
-#Investment calculator
+# Investment calculator
 instilization steps
 
 
@@ -6,5 +6,5 @@ instilization steps
 enter your initial amouny
 
 
-###authors
+### authors
 alessandro zalunardo alexander fillipazzo
