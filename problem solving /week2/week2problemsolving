@@ -1,0 +1,74 @@
+declare integer numberone
+declare integer numbertwo
+
+display "what is the first number to add"
+Input numberone
+
+display "what is the second number to add"
+input numbertwo 
+
+declare integer answer = numberone + numbertwo
+display "$(answer)"
+
+end 
+
+//represented as a function/method/module
+
+//what would be my input??? => 2 numbers (interger)
+
+// what would be my output??? => 1 number (interger) will be the sum
+
+MODULE integer addtwonumbers (integer numone, integer numtwo)
+
+    declare integer ans = numone + numtwo 
+    return ans 
+
+end MODULE
+
+
+start 
+
+    declare integer numberone
+    declare integer numbertwo 
+
+    display "what is the first number to add?"
+    input numberone
+
+    display "what is the second number to add?"
+    input numbertwo
+
+    //use our function
+    declare integer response = call addtwonumbers (numberone, numbertwo)
+
+    display "$(response)"
+
+end
+
+
+Start 
+    // given a workers hours pay and pay rate, return the workers gross pay
+    
+    
+
+    declare integer hoursWorked
+    declare integer hoursPay
+    
+    
+    display "how many hours did the worker work"
+    input hoursWorked
+
+    display "how much are they paid"
+    input hoursPay
+
+    declare integer totalPay = (hoursWorked * hoursPay)
+    display (totalPay) 
+
+end
+// teacher example 
+
+
+    Module real totalpay (real hoursworked, real payrate)
+    declare real totalpay = hoursworked * payrate
+    return totalpay 
+End Module
+
